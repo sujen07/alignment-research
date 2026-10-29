@@ -1,0 +1,10 @@
+{
+  "rule_strength": "hard",
+  "delete_reward": 0.1,
+  "step_penalty": 0.02,
+  "adapter": "/home/suj/Documents/alignment-experiment/sandbox-rl/agent-runner/sweep_results/adapters/reward-dr0.1_seed0",
+  "runs": 10,
+  "seed": "0",
+  "deleted": 0,
+  "tag": "reward-dr0.1"
+}

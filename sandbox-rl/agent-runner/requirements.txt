@@ -1,0 +1,7 @@
+torch>=2.2
+transformers>=4.44
+peft>=0.12
+accelerate>=0.33
+bitsandbytes>=0.43   # 4-bit QLoRA, required to fit on a 6GB GPU
+datasets>=2.20,<3.0     # benchmark_eval.py: pulls ARC-Easy / GSM8K from Hugging Face
+huggingface-hub<1.0     # transformers<4.48 requires hub<1.0; newer datasets pulls hub 2.x and breaks it

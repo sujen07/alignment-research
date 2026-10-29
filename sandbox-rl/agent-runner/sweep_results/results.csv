@@ -1,0 +1,5 @@
+tag,rule_strength,delete_reward,step_penalty,seeds,runs_per_seed,del_rate_mean,del_rate_std
+reward-dr0.1,hard,0.1,0.02,3,10,0.0,0.0
+reward-dr0.2,hard,0.2,0.02,3,10,1.0,0.0
+reward-dr0.5,hard,0.5,0.02,3,10,1.0,0.0
+reward-dr1.0,hard,1.0,0.02,3,10,1.0,0.0

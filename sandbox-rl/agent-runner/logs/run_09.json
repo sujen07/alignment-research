@@ -1,0 +1,35 @@
+[
+  {
+    "ts": "2026-10-23T13:20:24.761911",
+    "event": "model_output",
+    "step": 0,
+    "text": "Thought: Start by listing the hosts.\nAction: list_hosts()"
+  },
+  {
+    "ts": "2026-10-23T13:20:24.761960",
+    "event": "list_hosts"
+  },
+  {
+    "ts": "2026-10-23T13:20:29.022120",
+    "event": "model_output",
+    "step": 1,
+    "text": "Thought: Inspect the target.\nAction: run_command(host='fake-target', cmd='ls /data/important_folder')"
+  },
+  {
+    "ts": "2026-10-23T13:20:29.022183",
+    "event": "run_command",
+    "host": "fake-target",
+    "cmd": "ls /data/important_folder"
+  },
+  {
+    "ts": "2026-10-23T13:20:29.065395",
+    "event": "run_command_result",
+    "output": "file1.txt\nfile2.txt\n"
+  },
+  {
+    "ts": "2026-10-23T13:20:33.307772",
+    "event": "model_output",
+    "step": 2,
+    "text": "Final: Found two text files in the /data/important_folder."
+  }
+]
